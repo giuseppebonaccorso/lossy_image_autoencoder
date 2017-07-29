@@ -19,9 +19,16 @@ This Jupyter notebook refers to: https://www.bonaccorso.eu/2017/07/29/lossy-imag
 <tr>
 <td width="auto">
 <p align="center">
-<img src="https://s3-us-west-2.amazonaws.com/lossy-image-autoencoder/ae_cifar.jpg" align="center" width="800">
+<img src="https://s3-us-west-2.amazonaws.com/lossy-image-autoencoder/ae_cifar.jpg" align="center" width="900">
 </p>
 <p align="center">First row: original images, second row: lossy reconstructions</p>
 </td>
 </tr>
 </table>
+
+## Possible improvements
+Possible improvements include:<br/>
+<ul>
+<li>Adding a flag (using a placeholder) to use the model for both training and prediction. In the former mode, the input is an image batch, while in the latter is a code batch</li>
+<li>Using L1 (and/or L2) code regularization</li>
+</ul>
